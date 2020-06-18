@@ -136,12 +136,15 @@ public class Form_Project_Alpro extends javax.swing.JFrame {
                 return arrayAngka;
             }
             
+            //mendivide/membagi menjadi 2 bagian kiri dan kanan
             int[] bagKiri = Arrays.copyOfRange(arrayAngka, 0, panjang/2);
             int[] bagKanan = Arrays.copyOfRange(arrayAngka, panjang/2, panjang);
             
+            ///mengconquer/menyortir bagian kiri dan kanan
             int[] sortedKiri = sort(bagKiri);
             int[] sortedKanan = sort(bagKanan);
             
+            //menyatukan kembali hasil sortiran
             return merge(sortedKiri, sortedKanan, panjang);
         }
 
