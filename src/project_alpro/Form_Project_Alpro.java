@@ -104,7 +104,7 @@ public class Form_Project_Alpro extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 250, 350, 80));
 
-        background.setIcon(new javax.swing.ImageIcon("C:\\Users\\Zulfa Fatah Akbar A\\Pictures\\Ingredients\\Valorant3-resized.jpg")); // NOI18N
+        background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/background/Valorant3-resized.jpg"))); // NOI18N
         background.setText("jLabel1");
         background.setToolTipText("");
         background.setAlignmentY(0.0F);
